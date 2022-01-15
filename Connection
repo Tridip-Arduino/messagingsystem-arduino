@@ -1,0 +1,38 @@
+Connect LCD to Arduino Like given in Photo, So the A0 pin connected to the 16th Pin of LCD.
+
+16th pin of LED ------> 1st pin of LCD
+
+2nd pin of LCD -------> +5v of Arduino
+
+3rd Pin of LCD --------> GND of Arduino
+
+4rth pin of LCD --------> 5th pin of Arduino
+
+5th pin of LCD ---------> 4rth pin of Arduino
+
+6th pin of LCD ---------> 3rd pin of Arduino
+                 
+                 
+                 
+
+Mine Bluetooth Works on 3.3v to 6v, So I will connect it to 3.3v of Arduino.
+
+Vcc of Bluetooth --------> 3.3v of Arduino
+
+Gnd of Bluetooth --------> Gnd of Arduino
+
+Tx of Bluetooth --------> Rx of Arduino
+
+Rx of Bluetooth ---------> Tx of Arduino
+
+
+
+
+Connect your Arduino to Power supply
+
+the red LED in Bluetooth will starts fast blinking it means it is not connected to any device.
+
+Turn on the Bluetooth in your device.
+Search for new device.
+Click on Hc05 once it appear.
+Enter the password "1234" or "0000".
